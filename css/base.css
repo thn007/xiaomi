@@ -1,0 +1,68 @@
+/*公共样式*/
+
+
+/*块级元素默认样式*/
+body,p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6{
+	margin: 0px;
+	padding: 0px;
+	font-family: "宋体";
+	list-style: none;
+	font-size: 14px;
+
+}
+
+h3{
+	font-weight: normal;
+}
+/*行内元素默认样式*/
+a{
+
+	text-decoration: none;
+}
+a:hover{
+
+	color: #f60;
+}
+
+/*行内块元素*/
+img,input{
+	padding:0px;
+	margin: 0px;
+	outline-style: none;
+	border: 0 none;
+}
+
+ .clearfix::after{
+ 	content: "";
+ 	display: block;
+ 	clear: both;
+
+ 	height: 0;
+ 	line-height: 0;
+ 	visibility: none;
+ }
+
+.clearfix{
+	zoom:1;
+}
+
+
+/*版心*/
+
+.wrap{
+	width: 1226px;
+	margin: 0 auto;
+}
+
+
+/*图片与文字中线对齐*/
+img{
+	vertical-align: middle;
+		}
+
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
